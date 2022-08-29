@@ -1,0 +1,1060 @@
+
+    
+.Validator
+{  
+  color: white;
+  border-style: outset;
+  border-width: 0;
+  border-color: black ;  
+   
+}
+
+.Title
+{
+  direction: ltr;
+  font-family:Arial;
+  font-size: 8 pt;
+  font-weight: bold;
+  text-align: left;
+  text-overflow: ellipsis;
+  background-color: darkblue;
+  color: white ;
+  display: inline;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  z-index: auto;  
+}
+
+.WindowTitle
+{
+  direction: ltr;
+  font-family:Arial;
+  font-size: 10 pt;
+  font-weight: bold;
+  text-align: left;  
+  
+}
+
+.TopMenu
+{  
+  font-family: Arial;
+  font-size:12;
+  font-weight: normal;
+  text-align: center;   
+  background-color:White;
+  color: black ;   
+  border-style:  none;
+  border-width: 0;  
+ 
+}
+
+.menutitle
+{
+	cursor:pointer;
+	margin-top: 10px;		
+	background-image:url('../Images/MenuTitleDown.gif');	
+	color:White;
+	width:150px;
+	height:24px;
+	padding:2px;
+	text-align:left;
+	font-family:Arial;	
+	font-size:8pt;
+	font-weight:bold;
+	vertical-align:middle;
+	
+	/*/*/border:0px solid #000000;/* */
+}
+
+.menuitems              
+{
+ padding-left :2px;
+ padding-right:2px;
+}
+
+.skin0                  
+{
+position:absolute;
+width:80px;                        
+font-family:Arial, Tahoma, Verdana, Helvetica, sans-serif;
+line-height:15px;
+cursor:default;
+font-size:11px;
+z-index:100;								
+background-color: ThreeDFace;
+border: 2px outset ThreeDHighLight;
+background-color: ThreeDFace;
+white-space:nowrap;
+}
+	
+.Tree
+{
+  
+  background-color: gray;
+  color: darkblue ;
+  border-style:  outset;
+  border-width: 0;
+  border-color: black ; 
+  
+}
+
+.TreeNode
+{
+  font-family: Arial;
+  font-size: 7 pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: normal;
+  text-overflow: ellipsis;
+  background-color: lightgray;
+  color: darkblue ;
+  border-style: outset;
+  border-width: 5;
+  border-color: darkgray ;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+.Button
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size:  8pt;
+  font-style: normal;
+  font-weight:  normal;
+  text-align: center;
+  text-decoration: normal;  
+  background-color: lightgray;
+  color: black ;
+  border-style:outset;   
+  position: static;
+  visibility: visible;
+  z-index: auto;   
+}
+
+.BtnRoundCorners
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size:  8pt;
+  font-style: normal;
+  font-weight:  normal;
+  text-align: center;
+  text-decoration: normal;  
+  background-color: lightgray;
+  color: black ;
+  border-style:outset;   
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;  
+  border-style:solid; 
+  border-width:1px;   
+}
+
+
+.Button_old
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: normal;
+  text-overflow: ellipsis;
+  background-color: lightgray;
+  color: darkblue ;
+  border-style: outset;
+  border-width: 3;
+  border-color: darkgray ;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+
+.ButtonSearch
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 14;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: normal;
+  background-color: lightgray;
+  background-repeat:  no-repeat;   
+  color: darkblue ;
+  border-style: outset;  
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+
+.Label
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 8pt;
+  font-weight: normal;
+  text-align: left;
+  overflow:  hidden;
+  color: black;
+  display: inline;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  white-space:normal;
+  text-indent:0;
+  z-index: auto;   
+}
+
+.LabelYear
+{
+  direction: ltr;
+  font-family: Arial;  
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: left;
+  overflow:  hidden;
+  color: red;  
+  display: inline;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  white-space:normal;
+  z-index: auto;
+}
+
+.LabelFormType
+{
+  direction: ltr;
+  font-family: Arial;  
+  font-size: 14pt;
+  font-weight:normal;
+  text-align:center;
+  overflow:  hidden;
+  color: red;  
+  display: inline;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  white-space:normal;
+  z-index: auto;
+}
+
+.Prompt
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 11pt ;
+  font-weight: normal;
+  text-align: left;
+  overflow:  hidden;
+  color:  Black;
+  display: inline;
+  overflow: visible;
+  visibility: visible;
+  z-index: auto;  
+}
+
+
+.TextBox
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 8px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-indent: 0pc;  
+  vertical-align: middle;
+  white-space: normal;
+  word-spacing: normal;
+  color: black; 
+  display: inline;
+  overflow: hidden;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+
+
+.TextBoxDollar
+{
+	border-right: thin;
+	border-top: thin;
+	display: inline;
+	font-family: Arial;
+	font-weight: normal;
+	font-size:  8px;
+	visibility: visible;
+	word-spacing: normal;
+	vertical-align: baseline;
+	overflow: hidden;
+	border-left: thin;
+	color: black;
+	direction: ltr;
+	text-indent: 0pc;
+	border-bottom: thin;
+	font-style: normal;	
+	position: absolute;
+	TEXT-OVERFLOW: ellipsis;
+	text-align: right;
+	font-variant: normal;
+	white-spacing: normal;
+	
+}
+
+.TextBoxText
+{
+	border-right: thin;
+	border-top: thin;
+	display: inline;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 8px;
+	visibility: visible;
+	word-spacing: normal;
+	vertical-align: bottom;
+	overflow: hidden;
+	border-left: thin;
+	color: black;
+	direction: ltr;
+	text-indent: 0 pc;
+	border-bottom: thin;
+	font-style: normal;	
+	position: absolute;
+	TEXT-OVERFLOW: ellipsis;
+	text-align: left;
+	font-variant: normal;
+	white-space: normal;
+}
+
+.CheckBox
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 14;
+  font-style: italic;
+  font-variant: normal;
+  line-height: normal;
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 5pt;
+  text-overflow: ellipsis;
+  border-style: none;
+  display: inline;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+.Image
+{
+  vertical-align: bottom;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+.Panel
+{
+  background-color: gainsboro;
+  border: black;
+  display: inline;
+  margin: auto auto auto auto;
+  padding: 2pt 2pt 2pt 2pt;
+  visibility: visible;
+  z-index: auto;
+}
+
+
+.Text
+{
+  font-family: Arial;
+  font-size: 12;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+  border: thin solid darkblue;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+.HyperLink
+{
+  font-family: Arial;
+  font-size: 13;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 0pt;
+  vertical-align: middle;
+  color: darkblue;  
+  display: inline;
+  margin: auto auto auto auto;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+.TabNormal
+{
+  position:relative;	
+  width:100px;
+  font-family: Arial;
+  font-size: 12;
+  font-style:normal;
+  font-weight:normal;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  vertical-align: middle;
+  color: darkgray;  
+  display: inline;
+  margin: auto auto auto auto;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  border-style:  outset;
+  border-bottom:solid 1 white;
+   border-left:solid 1 white;
+   border-top:solid 1 white;
+   border-right:solid 1 black;
+  z-index: auto;
+}
+
+.TabSelected
+{
+  position:relative;
+  width:100px;
+  font-family: Arial;
+  font-size: 12;
+  font-style: normal;
+  font-weight: bold; 
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  vertical-align: middle;
+  color:  lime;  
+  display: inline;
+  margin: auto auto auto auto;
+  overflow: visible;
+  position: static;
+  visibility: visible;
+  border-style:  outset;
+  border-bottom:none;
+   border-left:solid 1 white;
+   border-top:solid 1 white;
+   border-right:solid 1 black;
+  
+  z-index: auto;
+}
+
+.TabTextSelected
+{
+  font-family : Arial;
+  font-size: 12;
+  font-style: normal;
+  font-weight: bold; 
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  vertical-align: middle;
+  color:  black;  
+}
+
+.TabTextNormal
+{
+  font-family: Arial; 
+  font-size: 12;
+  font-style: normal;
+  font-weight: normal; 
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  vertical-align: middle;
+  color:  black;  
+}
+
+
+.ListBox
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 12;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 2pt;
+  vertical-align: top;
+  border: thin solid darkblue;
+  display: inline;
+  position: static;
+  visibility: visible;
+  z-index: auto;
+}
+
+.DropDownList
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  vertical-align:text-top; 
+  position: static;
+  visibility: visible;
+  z-index: auto;  
+}
+
+.BtnRoundCorners
+{
+    direction: ltr;
+    font-family: Arial;
+    font-size:  8pt;
+    font-style: normal;
+    font-weight:  normal;
+    text-align: center;
+    text-decoration: normal; 
+    color: black ;      
+    -webkit-border-radius:3px;     
+    -moz-border-radius:3px;
+    border-radius:3px;      
+    border-color: cornflowerblue;
+    border-style:solid; 
+    border-width:1px;              
+    
+}
+    
+.DDLRoundCorners
+{
+    direction: ltr;
+    font-family: Arial;
+    font-size: 8pt;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    vertical-align:text-top; 
+    color: black ;        
+    -webkit-border-radius: 3px;     
+    -moz-border-radius: 3px;
+    border-radius: 3px;     
+    border-style:solid; 
+    border-width:thin;
+    border-color:cornflowerblue;   
+    overflow: hidden;
+    position: static; 
+}
+    
+.TxtRoundCorners
+{
+    direction: ltr;
+    font-family: Arial;
+    font-size: 8px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-indent: 0pc;  
+    vertical-align: middle;
+    white-space: normal;
+    word-spacing: normal;
+    color: black; 
+    display: inline;
+    overflow: hidden;
+    position: static;
+    -webkit-border-radius: 3px;     
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-style:solid; 
+    border-width:1px; 
+    border-color:cornflowerblue;     
+}
+
+
+.PromptRoundCorners
+{
+    direction: ltr;
+    font-family: Arial;
+    font-size: 11pt ;
+    font-weight: normal;
+    text-align: left;
+    overflow:  hidden;
+    color:  Black;
+    display: inline;
+    overflow: visible;
+    -webkit-border-radius: 3px;     
+    -moz-border-radius: 3px;
+    border-radius: 3px; 
+    border-style:solid; 
+    border-width:1px; 
+    border-color:cornflowerblue;    
+}
+
+.LblRoundCorners
+{
+     direction: ltr;
+    font-family: Arial;
+    font-size: 11pt ;
+    font-weight: normal;
+    text-align: left;
+    overflow:  hidden;
+    color:  Black;
+    display: inline;
+    text-indent:2px;
+    overflow: visible;
+    -webkit-border-radius: 3px;     
+    -moz-border-radius: 3px;
+    border-radius: 3px;  
+    border-style:solid; 
+    border-width:1px; 
+    border-color:cornflowerblue;  
+}
+    
+.PanelRoundCorners
+{
+    background-color: transparent;      
+    display: inline;
+    margin: auto auto auto auto;
+    z-index: auto;
+    -webkit-border-radius: 3px;     
+    -moz-border-radius: 3px;
+    border-radius: 3px;  
+    border-style:solid; 
+    border-width:1px; 
+    border-color:cornflowerblue;  
+}
+
+
+
+    
+.RadioButtonList
+{
+  font-family:Arial;
+  font-size:10pt ;
+  font-weight:normal;
+  font-style:italic;
+  text-decoration:none;
+}
+
+
+.ImageButton
+{
+  direction: ltr;
+  font-family: Arial;
+  font-size: 14;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: none;
+  vertical-align: middle;
+  border: 0 outset bluevoilet;
+  margin: auto auto auto auto;
+  display: inline;
+  visibility: visible;
+  z-index: auto;
+  
+}
+
+.text 
+{ 
+    mso-number-format:\@; 
+} 
+
+   
+    
+.numeric 
+{
+    mso-number-format:\#\,\#\#0\.00; 
+} 
+
+/** CSS for DataGrid **/
+
+.GridStyle 
+{    
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  text-align:left;
+  vertical-align:middle;
+  border: solid  1  Gray;
+     
+}
+.GridHeaderStyle 
+{    
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  text-align:left;
+  vertical-align:top;
+  white-space:nowrap;
+  background:Silver; 
+  color:Black;  
+  white-space:nowrap; 
+  
+  
+} 
+
+                    
+.GridFooterStyle 
+{   
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  text-align:left;
+  vertical-align:middle;  
+  border: groove  1  black;
+  background-color:gainsboro;
+  color:Black;  
+} 
+
+.GridPagerStyle 
+{    
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  text-align:left;
+  vertical-align:middle;
+  border: solid  1  Gray;
+  background-color:Gainsboro;
+  color:Black; 
+}
+
+.GridCustomPagerStyle 
+{    
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  text-align:left;
+  vertical-align:middle;
+  border: solid  1  Gray;
+  border-top: none;
+  background-color:Silver;
+   
+}
+
+.GridColumn
+{  
+ 
+ font-family:Arial;
+ font-size:8pt;
+ font-weight:normal;
+ font-style:normal;
+ text-decoration:none;
+ background-color:White;
+ color:Black;
+ text-align:left;
+
+}
+
+.GridSelectColumn
+{  
+ 
+ font-family:Webdings;
+ font-size:12;
+ font-weight:bold;
+ font-style:normal; 
+ text-decoration:none; 
+ color:Navy;
+ text-align:left;
+ display:none;
+
+}
+
+.GridSelectColumnHeader
+{  
+ 
+ font-family:Arial;
+ font-size:8;
+ font-weight:normal;
+ font-style:normal;
+ text-decoration:none;
+ color:Black;
+ text-align:left;
+ display:none;
+
+}
+
+.GridItemStyle 
+{ 
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  background-color:ghostwhite;
+  color:Black;
+  text-align:left; 
+
+} 
+
+.GridAlternatingItemStyle 
+{	  
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  background-color:white;
+  color:Black;
+  text-align:left;
+ 
+} 
+
+.GridEditItemStyle 
+{  
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;  
+  text-align:left;
+  background-color: darkblue;
+  color:White;
+} 
+
+.GridSelectedItemStyle 
+{  
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;  
+  text-align:left;
+  background-color: darkblue;
+  color:White; 
+  
+}
+
+/** End of style for DataGrid **/
+
+/**CSS for calendar.**/
+
+.Calendar
+{
+  border-width: 4;
+  border-style: outset;
+  border-color: darkblue;
+  visibility: visible;
+  z-index: auto;
+}
+
+.TodayDayStyle 
+{
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  background-color:cornflowerblue;
+} 
+
+.DayStyle 
+{
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  background-color:white;
+} 
+
+.NextPrevStyle 
+{
+  font-family:Arial;
+  font-size:12pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  background-color:cornflowerblue;
+} 
+
+.DayHeaderStyle 
+{
+  font-family:Arial;
+  font-size:11pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  color:white;
+  background-color:cornflowerblue;
+  padding: 3pt;
+} 
+
+.SelectedDayStyle 
+{
+  font-family: Arial;
+  font-size:10pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  color:white;
+  background-color:darkblue;
+} 
+
+.TitleStyle 
+{
+  font-family:Arial;
+  font-size:12pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  color:white;
+  background-color:cornflowerblue;
+} 
+
+.SelectorStyle 
+{
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:normal;
+  text-decoration:none;
+  background-color: ghostwhite;
+  color: black;
+} 
+
+.OtherMonthDayStyle 
+{
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:normal;
+  font-style:italic;
+  background-color: ghostwhite;
+} 
+
+.WeekendDayStyle
+{
+  font-family:Arial;
+  font-size:10pt;
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  background-color:cornflowerblue;
+} 
+
+	a:link                  { 
+                            color: cornflowerblue; 
+                            text-decoration: underline; 
+                            }
+    a:visited               { color: cornflowerblue; 
+                              text-decoration: underline; 
+                            }
+    a:hover                 { color: red; 
+                              text-decoration: underline; 
+                            }
+    a:active                { color: cornflowerblue; 
+                              text-decoration: none; 
+                            }
+
+/** End of style for calendar **/
+
+.img-grd {
+background: url("../Images/GrayGradient.gif") 0% 0% repeat-x;
+color: #000000;
+height: 50px;
+padding: 1px;
+}
+
+
+.img-hover {
+background: url("../Images/GrayGradientHover.gif") 0% 0% repeat-x;
+color: #000000;
+height: 50px;
+padding: 1px;
+
+}
+
+.grd-gray
+{
+ filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#f0f0f0', startColorstr='#dcdcdc', gradientType='0');      
+}
+
+.shadowGray         
+  {
+    margin: 2px;        
+    background-color: rgb(68,68,68); /* Needed for IEs */        
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);        
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);        
+    -box-shadow: 5px 5px 5px rgba(68,68,68,0.6);        
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4,MakeShadow=true,ShadowOpacity=0.25);        
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=4,MakeShadow=true,ShadowOpacity=0.25)";        
+    zoom: 1;
+ }
+ 
+ .BtnHyperlink
+ {
+     border:none; 
+     background-color:Transparent; 
+     color:#000080; 
+     font-family:Arial; 
+     font-weight:bold; 
+     font-size:9pt;
+     text-decoration:none;
+ }
+ 
+ .BtnHyperlinkOver
+ {
+     border: solid 1px lightgray;       
+     color:#000080; 
+     font-family:Arial; 
+     font-weight:bold; 
+     font-size:11px;
+     text-decoration:underline;         
+ }
+ 
+ .transparent {	
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;	
+}
+
+
+/** Product_Test(Browser) cloumn style
+.ProductName
+{
+  background-color : blue; 
+  color: white;
+  font-family: Arial;
+  font-size: 12:
+  font-style: italic;
+}
+
+.DataGrid
+{
+  background-color : blue; 
+  color: white;
+  font-family: Arial;
+  font-size: 12;
+  font-style: italic;
+}
+
+/** End of style for Product_Text(Browser)
